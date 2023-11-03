@@ -1,17 +1,14 @@
+import './NavBar.css';
 
 function NavBar ( { websiteTitle } ) {
   return (
     <>
-      <div class="navBar">
-          <img class="navBarIcon" alt="Logo">
-          </img>
-          <div class="navBarLogo">
-            <h1 class="navBarLogoText">{websiteTitle}</h1>
-          </div>
-          <div class="navBarButton">
-          </div>
+      <div className="navBar">
+          <div className="navBarIcon" alt="Logo"></div>
+          <p className="navBarLogoText">{websiteTitle}</p>
+          <div className="navBarButton"></div>
       </div>
-      <hr class="navBarDivider"></hr>
+      <hr className="navBarDivider" />
     </>
   )
 };

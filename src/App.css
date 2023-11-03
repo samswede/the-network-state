@@ -1,0 +1,78 @@
+:root {
+  --primary-color: rgb(209, 213, 219); /* rgb(209, 213, 219)*/
+  --secondary-color: #2d3748;
+  
+  --accent-color: #e53e3e;
+  --accent-color-hover: #c53030;
+  --accent-color-pressed: #9b2c2c;
+  --accent-color-focus: #c53030;
+
+  --text-color: #fff;
+  --text-color-hover: #fff;
+  --text-color-pressed: #fff;
+
+  --font-size: 14px;
+  --font-weight: 600;
+
+  --font-family: Inter, Arial, sans-serif;
+
+  --border-color: rgb(209, 213, 219);
+  --border-color-hover: #718096;
+  --border-color-pressed: #4a5568;
+
+  --border-style: solid;
+  --border-width: 1px;
+
+  --border-radius: 9999px;
+
+}
+
+header {
+  border-bottom: var(--border-width) var(--border-style) var(--border-color);
+  box-sizing: border-box;
+
+  position: fixed;
+  z-index: 1000;
+
+}
+
+main {
+  padding-top: 110px;
+}
+
+#action-section {
+  padding: 16px;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1.6fr 1fr;
+}
+
+
+#main-concept-image {
+
+  /*  Margin to make space for NavBar
+  */
+  background-image: url("./jacob.png");
+  background-size: cover;
+  background-position: center;
+
+  aspect-ratio: auto 189 / 252;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: block;
+  height: 260px;
+  max-width: 100%;
+
+  justify-self: center;
+
+  border: transparent;
+  box-shadow: none;
+  outline: none;
+
+}
+
+
+
+
+

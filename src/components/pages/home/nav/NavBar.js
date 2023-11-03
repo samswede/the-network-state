@@ -1,19 +1,19 @@
 
-
-function NavBar (props) {
+function NavBar ( { websiteTitle } ) {
   return (
     <>
-    
-        <div class="navBar">
-            <img class="navBarLogoImage" alt="Logo">
-                <div class="navBarLogo">
-                    <h1 class="navBarLogoText">The Network State</h1>
-                </div>
-            <button class="navBarButton"></button>
-        </div>
-        <hr class="navBarDivider"></hr>
+      <div class="navBar">
+          <img class="navBarIcon" alt="Logo">
+          </img>
+          <div class="navBarLogo">
+            <h1 class="navBarLogoText">{websiteTitle}</h1>
+          </div>
+          <div class="navBarButton">
+          </div>
+      </div>
+      <hr class="navBarDivider"></hr>
     </>
-  );
+  )
 };
 
 export default NavBar;

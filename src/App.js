@@ -1,7 +1,7 @@
 
 import './App.css';
-import NavBar from './components/pages/home/Nav/NavBar';
-import ActionArea from './components/pages/home/ActionArea/ActionArea.js';
+import NavBar from './components/pages/home/nav/NavBar.js';
+import ActionArea from './components/pages/home/action_area/ActionArea.js';
 
 function App() {
   return (

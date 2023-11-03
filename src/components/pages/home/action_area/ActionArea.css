@@ -1,0 +1,58 @@
+    
+.actionArea {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+   
+    grid-template-areas: 
+        "podcast podcast podcast"
+        "buy read download"
+        "subscribe subscribe subscribe";
+    
+    grid-gap: 10px;
+}
+
+#button-podcast {
+    grid-area: podcast;
+  }
+
+#podcast-icon {
+    background-image: url('./headphones.svg');
+  
+  }
+
+
+#button-buy {
+    grid-area: buy;
+  }
+
+#buy-icon {
+    background-image: url('./amazon.svg');
+  
+  }
+
+
+#button-read {
+    grid-area: read;
+  }
+
+#read-icon {
+    background-image: url('./book.svg');
+  
+  }
+
+
+#button-download {
+    grid-area: download;
+  }
+
+#download-icon {
+    background-image: url('./arrow-down-circle.svg');
+  
+  }
+
+
+#subscribe {
+    grid-area: subscribe;
+  }
+

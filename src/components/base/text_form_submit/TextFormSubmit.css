@@ -1,0 +1,170 @@
+/* CSS variables for textFormSubmits */
+:root {
+    --textFormSubmit-height: 44px;
+
+    --textFormSubmit-border-style: solid;
+    --textFormSubmit-border-width: 1px;
+
+    --textFormSubmit-margin: 4px;
+    --textFormSubmit-padding-vertical: 10px;
+    --textFormSubmit-padding-horizontal: 18px;
+
+    --textFormSubmit-border-color: rgb(209, 213, 219); /* rgb(209, 213, 219)*/
+    --textFormSubmit-border-color-hover: rgb(0, 0, 0);
+
+    --textFormSubmit-background-color: rgb(255, 255, 255);
+    --textFormSubmit-background-color-hover: var(--textFormSubmit-border-color-hover);
+
+    --textFormSubmit-text-color: rgb(30, 30, 30);
+    --textFormSubmit-text-color-hover: rgb(255, 255, 255);
+
+    --textFormSubmit-font-size: 14px;
+    --textFormSubmit-font-weight: 600;
+
+
+    /* submit */
+    --black: rgb(0, 0, 0);
+    --white: rgb(255, 255, 255);
+    --border-style: solid;
+    --border-width: 1px;
+    --border-radius-9999: 9999px;
+    --font-family: Inter, Arial, sans-serif;
+    --font-size: 16px;
+    --font-weight: 600;
+    --button-height: 44px;
+    --button-width: 115px;
+    --padding: 16px;
+
+
+    /* input */
+    --border-color: rgb(229, 231, 235);
+    --border-style: solid;
+    --border-width: 0px;
+    --font-family: ui-sans-serif, system-ui, -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-size: 16px;
+    --height: 44px;
+    --line-height: 24px;
+    --width: 459px;
+    --margin-top: 4px;
+
+}
+
+
+.textFormSubmit {
+
+    align-items: center;
+
+    border-color: var(--textFormSubmit-border-color);
+    border-radius: 9999px;
+
+    border-style: var(--textFormSubmit-border-style);
+
+    border-width: var(--textFormSubmit-border-width);
+
+    border-image-outset: 0;
+
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+
+    border-image-width: 1;
+
+
+    box-sizing: border-box;
+
+
+    display: flex;
+
+    flex-direction: row;
+
+    font-family: Inter, Arial, sans-serif;
+    font-size: var(--textFormSubmit-font-size);
+    font-weight: var(--textFormSubmit-font-weight);
+
+    height: var(--textFormSubmit-height);
+
+    justify-content: center;
+
+    line-height: normal;
+
+    margin: var(--textFormSubmit-margin);
+    min-width: fit-content;
+
+    padding-bottom: var(--textFormSubmit-padding-vertical);
+    padding-left: var(--textFormSubmit-padding-horizontal);
+    padding-right: var(--textFormSubmit-padding-horizontal);
+    padding-top: var(--textFormSubmit-padding-vertical);
+    pointer-events: auto;
+
+    tab-size: 4;
+    text-decoration-color: rgb(0, 0, 0);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+
+    -webkit-font-smoothing: antialiased;
+  }
+
+
+.textFormSubmitInput {
+    align-items: left;
+    border: transparent;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    font-family: ui-sans-serif, system-ui, -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 16px;
+    height: 44px;
+    justify-content: left;
+    line-height: 24px;
+    margin-top: 4px;
+    pointer-events: auto;
+    tab-size: 4;
+    text-size-adjust: 100%;
+    width: 459px;
+    -webkit-font-smoothing: antialiased;
+      
+}
+
+
+.textFormSubmitButton {
+
+        align-items: center;
+        appearance: button;
+        background-color: var(--black);
+        background-image: none;
+        border-color: var(--black);
+        border-style: var(--border-style);
+        border-width: var(--border-width);
+        border-radius: 0px;
+
+        box-sizing: border-box;
+
+        color: var(--white);
+        cursor: pointer;
+
+        display: flex;
+        font-family: var(--font-family);
+        font-size: var(--font-size);
+        font-weight: var(--font-weight);
+        height: var(--button-height);
+        justify-content: center;
+        margin: 0;
+        min-width: var(--button-width);
+        outline: none;
+        padding: var(--padding);
+        pointer-events: auto;
+        text-align: center;
+        text-decoration: none;
+        text-decoration-color: var(--white);
+        text-indent: 0;
+        text-rendering: auto;
+        text-shadow: none;
+        text-transform: none;
+        white-space: nowrap;
+        width: var(--button-width);
+        word-spacing: 0;
+        -webkit-font-smoothing: antialiased;
+      
+}
+

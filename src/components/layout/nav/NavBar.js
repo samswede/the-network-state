@@ -7,10 +7,10 @@ function NavBar ( { websiteTitle } ) {
       <div className="navBar">
           <div className="navBar__Icon" alt="Logo"></div>
           <div className="navBar__Title">
-            <h1 className="navBar__TitleText">{websiteTitle}</h1>
+              <h1 className="navBar__TitleText">{websiteTitle}</h1>
           </div>
           <div className="navBar__Button">
-            <IconButton iconID="menu" />
+              <IconButton iconID="menu" />
           </div>
       </div>
     </>

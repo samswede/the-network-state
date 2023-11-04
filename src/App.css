@@ -36,7 +36,7 @@ header {
 }
 
 main {
-  padding-top: 110px;
+  padding-top: 11vh;
 }
 
 #action-section {
@@ -52,7 +52,7 @@ main {
 
   /*  Margin to make space for NavBar
   */
-  background-image: url("./jacob.png");
+  background-image: url("./assets/jacob.png");
   background-size: cover;
   background-position: center;
 

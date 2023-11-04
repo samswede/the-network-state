@@ -1,0 +1,55 @@
+::root {
+    --navBar-height: 10vh;
+}
+
+.navBar {
+    /* hv is a unit of measurement that is equal to 1% of the viewport height. */
+    height: var(--navBar-height);
+    width: 100vw;
+
+    display: grid;
+    grid-template-columns: 1fr 7fr 1fr;
+    grid-template-rows: 1fr;
+
+    border-bottom: 2px solid var(--border-color);
+    
+}
+
+.navBar__Icon {
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: grey;
+    border-bottom: inherit;
+
+    height: auto;
+
+}
+
+.navBar__Title {
+    background-color: white;
+    border-bottom: inherit;
+
+    justify-content: left;
+    align-items: left;
+
+
+}
+
+.navBar__TitleText {
+
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+
+}
+
+.navBar__Button {
+    justify-content: center;
+    align-items: center;
+
+    background-color: aquamarine;
+    border-bottom: inherit;
+
+}

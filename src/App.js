@@ -1,6 +1,6 @@
 
 import './App.css';
-import NavBar from './components/pages/home/nav/NavBar.js';
+import NavBar from './components/layout/nav/NavBar.js';
 import ActionArea from './components/pages/home/action_area/ActionArea.js';
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       
       <main>
         <section id="action-section">
-          <img id="main-concept-image">
+          <img id="main-concept-image" alt=''>
           </img>
           <ActionArea />
         </section>
@@ -43,8 +43,3 @@ function App() {
 export default App;
 
 
-
-
-function yourClickHandler() {
-  console.log('Hello!');
-}

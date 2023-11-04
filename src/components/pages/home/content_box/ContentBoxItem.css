@@ -19,8 +19,20 @@
 }
 
 .contentBox__itemButton {
-    height: 44px;
-    width: 44px;
+    height: 64px;
+    width: 64px;
+    
+    /*
+    I want to move the button up a few pixels
+
+    "margin-top: -40px;" did not work. What else should I try?
+
+    You could try "position: relative;" and "top: -40px;".
+
+    */
+
+    position: relative;
+    top: -10px;
 
     justify-content: center;
 

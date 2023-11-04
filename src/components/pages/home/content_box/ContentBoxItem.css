@@ -18,6 +18,12 @@
 
 }
 
+
+.contentBox__item h3 {
+    text-transform: capitalize;
+  }
+  
+
 .contentBox__itemButton {
     height: 64px;
     width: 64px;

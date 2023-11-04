@@ -2,6 +2,8 @@
 import './App.css';
 import NavBar from './components/layout/nav/NavBar.js';
 import ActionArea from './components/pages/home/action_area/ActionArea.js';
+import ContentBox from './components/pages/home/content_box/ContentBox';
+import ContentBoxItem from './components/pages/home/content_box/ContentBoxItem';
 
 function App() {
   return (
@@ -24,10 +26,20 @@ function App() {
             This book explains how to build the successor to the nation state, 
             a concept we call the network state.</p>
         </section >
-          <ActionArea />
-          <ActionArea />
-          <ActionArea />
-          <ActionArea />
+          <ContentBox contentHeader="1. Quickstart">
+            <ContentBoxItem 
+              iconID="arrow-down-right-circle" 
+              contentItemHeader="In one sentence"/>
+            <ContentBoxItem 
+              iconID="arrow-down-right-circle" 
+              contentItemHeader="In one image"/>
+            <ContentBoxItem 
+              iconID="arrow-down-right-circle" 
+              contentItemHeader="In one thousand words"/>
+            <ContentBoxItem 
+              iconID="arrow-down-right-circle" 
+              contentItemHeader="In one essay"/>
+          </ContentBox>
         <section id="content-section">
 
         </section>

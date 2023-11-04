@@ -1,4 +1,5 @@
 import './NavBar.css';
+import IconButton from '../../base/icon_button/IconButton.js';
 
 function NavBar ( { websiteTitle } ) {
   return (
@@ -8,7 +9,9 @@ function NavBar ( { websiteTitle } ) {
           <div className="navBar__Title">
             <h1 className="navBar__TitleText">{websiteTitle}</h1>
           </div>
-          <div className="navBar__Button"></div>
+          <div className="navBar__Button">
+            <IconButton iconID="menu" />
+          </div>
       </div>
     </>
   )

@@ -1,0 +1,99 @@
+.iconButtonContainer {
+    width: 100%; /* or any desired width */
+    position: relative; /* The parent container must be relative for absolute positioning inside */
+    padding-top: 100%; /* Ensure the container maintains aspect ratio for a circle */
+    background-color: transparent;
+    display: flex; /* Added to ensure the content is centered */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .iconButton {
+
+    margin: 10%;
+    padding: 10%;
+
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%; /* Take the full width of the container */
+    height: 80%; /* Height equals width to maintain the aspect ratio */
+    display: flex; /* Flex styles to center the content */
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .iconButton__Icon {
+    /* Adjusted styles for the icon */
+    display: inline-block; /* Changed from absolute to inline-block */
+    /* Centering is already handled by flexbox in the button */
+  
+
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+
+    border-image-width: 1;
+
+
+    color: var(--border-color);
+    cursor: pointer;
+
+    display: block;
+
+
+    height: 100%;
+    width: 100%;
+
+    line-height: normal;
+
+    max-width: 100%;
+
+    overflow-clip-margin: content-box;
+    overflow-x: clip;
+    overflow-y: clip;
+
+    pointer-events: auto;
+
+    tab-size: 4;
+    text-decoration-thickness: auto;
+    text-size-adjust: 100%;
+
+    vertical-align: middle;
+
+    -webkit-font-smoothing: antialiased;
+}
+
+.iconButton:hover {
+    /* I want to change the background color of the button when the mouse is over it */
+    background-color: var(--border-color-hover);
+    color: var(--text-color-hover);
+  
+    transition: 
+          background-color 0.1s ease-in-out 0s
+  }
+  
+  .iconButton:hover .IconButton__Icon {
+    filter: invert(100%);
+    color: white;
+  
+    transition: 
+      filter 0.1s ease-in-out 0s
+  }
+
+
+#arrow-down-right-circle {
+    background-image: url("../../../assets/icons/arrow-down-right-circle.svg");
+    background-size: cover;
+}
+
+
+#arrow-down-circle {
+    background-image: url("../../../assets/icons/arrow-down-circle.svg");
+    background-size: cover;
+}
+

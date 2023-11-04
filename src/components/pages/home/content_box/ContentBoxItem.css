@@ -1,0 +1,29 @@
+
+.contentBox__item {
+    display: flex;
+    flex-direction: row;
+
+    height: 44px;
+    width: 100%;
+
+    padding: 8px 16px 16px 8px;
+
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: var(--border-style) 1px var(--border-color);
+
+    justify-content: left;
+    align-items: left;
+
+}
+
+.contentBox__itemButton {
+    height: 44px;
+    width: 44px;
+
+    justify-content: center;
+
+    margin: 0.5rem;
+
+}

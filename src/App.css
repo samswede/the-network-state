@@ -16,12 +16,16 @@
 
   --font-family: Inter, Arial, sans-serif;
 
+  --background-color: rgb(255, 255, 255);
+  --background-color-hover: rgb(209, 213, 219);
+  --background-color-pressed: #fff;
+
   --border-color: rgb(209, 213, 219);
   --border-color-hover: #718096;
   --border-color-pressed: #4a5568;
 
   --border-style: solid;
-  --border-width: 1px;
+  --border-width: 2px;
 
   --border-radius: 9999px;
 
@@ -37,6 +41,10 @@ header {
 
 main {
   padding-top: 11vh;
+
+  padding-left: 32px;
+  padding-right: 32px;
+
 }
 
 #action-section {
@@ -52,7 +60,7 @@ main {
 
   /*  Margin to make space for NavBar
   */
-  background-image: url("./assets/jacob.png");
+  background-image: url("./assets/images/jacob.png");
   background-size: cover;
   background-position: center;
 

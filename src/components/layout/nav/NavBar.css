@@ -20,7 +20,8 @@
     justify-content: center;
     align-items: center;
 
-    background-color: grey;
+    background-image: url("../../../assets/favicon_SMA.png");
+    background-size: cover;
     border-bottom: inherit;
 
     height: auto;
@@ -51,5 +52,9 @@
 
     background-color: aquamarine;
     border-bottom: inherit;
+}
 
+#menu {
+    background-image: url("../../../assets/icons/arrow-down-right-circle.svg");
+    background-size: cover;
 }

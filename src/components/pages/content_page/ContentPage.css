@@ -1,0 +1,15 @@
+#contentPage-main {
+    padding: 0px 32px 4px;
+
+}
+
+.chapterImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+
+    background-image: url("../../../assets/images/quickstart.png");
+    background-size: cover;
+}

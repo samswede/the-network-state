@@ -1,7 +1,7 @@
 import './ContentPage.css';
 import NavBar from '../../layout/nav/NavBar';
-import ChapterTitle from './ChapterTitle';
-import ChapterSubtitle from './ChapterSubtitle';
+import PageTitle from './PageTitle.js';
+import PageSubtitle from './PageSubtitle.js';
 
 
 function ContentPage() {
@@ -16,9 +16,9 @@ function ContentPage() {
         <div className="chapterImage">
         </div>
 
-        <ChapterTitle chapterTitle="Chapter Title"/>
-        
-        <ChapterSubtitle chapterSubtitle="Chapter Subtitle"/>
+        <PageTitle pageTitle="Chapter Title"/>
+
+        <PageSubtitle pageSubtitle="Chapter Subtitle"/>
         <section className="content">
           <h2>Description</h2>
           <p>Technology has enabled us to start new companies, 
@@ -26,6 +26,8 @@ function ContentPage() {
             But can we use it to start new cities, or even new countries? 
             This book explains how to build the successor to the nation state, 
             a concept we call the network state.</p>
+        
+        
         </section >
 
         <section id="content-section">

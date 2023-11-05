@@ -1,5 +1,5 @@
-.chapterHeading {
-    font-family: Valkyrie B;
+.pageTitle {
+    font-family: var(--font-1);
     font-size: 32px;
 
     text-align: center;

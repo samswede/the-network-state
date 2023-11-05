@@ -1,4 +1,4 @@
-.chapterSubheading {
+.pageSubheading {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
 
@@ -7,14 +7,14 @@
 
 }
 
-.chapterSubheading__line {
+.pageSubheading__line {
     height: 30px;
     border-bottom: 1px solid #000; 
 
 }
 
-.chapterSubheading__text {
-    font-family: Valkyrie B;
+.pageSubheading__text {
+    font-family: var(--font-1);
     font-size: 16px;
     height: 10px;
     padding-left: 15px;

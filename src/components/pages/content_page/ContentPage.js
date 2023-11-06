@@ -11,7 +11,7 @@ function ContentPage() {
             <NavBar websiteTitle={'Content Page Title'}/>
       </header>
       
-      <main id="contentPage-main">
+      <main className="contentPage__main">
 
         <div className="chapterImage">
         </div>
@@ -21,12 +21,16 @@ function ContentPage() {
         <PageSubtitle pageSubtitle="Chapter Subtitle"/>
         <section className="content">
           <h2>Description</h2>
-          <p>Technology has enabled us to start new companies, 
+          <p>
+            Technology has enabled us to start new companies, 
             new communities, and new currencies. 
             But can we use it to start new cities, or even new countries? 
-            This book explains how to build the successor to the nation state, 
-            a concept we call the network state.</p>
-        
+            This <a href="">book</a> explains how to build the successor to the nation state, 
+            a concept we call the network state.
+          </p>
+          <blockquote>
+            A network state is a highly aligned online community with a capacity for collective action that crowdfunds territory around the world and eventually gains diplomatic recognition from pre-existing states.
+          </blockquote>
         
         </section >
 

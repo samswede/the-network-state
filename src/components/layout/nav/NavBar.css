@@ -1,5 +1,5 @@
 ::root {
-    --navBar-height: 6vh;
+    --navBar-height: 50px;
 }
 
 .navBar {
@@ -9,7 +9,7 @@
 
     display: grid;
     grid-template-columns: 1fr 7fr 1fr;
-    grid-template-rows: 0.5fr;
+    grid-template-rows: auto;
 
     border-bottom: 2px solid var(--border-color);
     
@@ -35,13 +35,22 @@
     justify-content: left;
     align-items: left;
 
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+
 
 }
 
 .navBar__TitleText {
 
+    margin: 0px 0px 0px 0px;
+    padding: 5px 0px 0px 0px;
+
+    font-size: var(--font-size-4);
+
     text-align: center;
     color: #000;
+    font-family: var(--font-1);
     text-decoration: none;
 
 }

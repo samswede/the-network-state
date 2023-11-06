@@ -20,7 +20,7 @@
 
     font-family: var(--font-1);
 
-    font-size: 32px;
+    font-size: var(--font-size-3);
     font-style: italic;
 }
 

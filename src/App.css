@@ -18,7 +18,13 @@
   --text-color-hover: #fff;
   --text-color-pressed: #fff;
 
-  --font-size: 14px;
+  --font-size-1: 48px;
+  --font-size-2: 32px;
+  --font-size-3: 24px;
+  --font-size-4: 20px;
+  --font-size-5: 16px;
+
+
   --font-weight: 600;
 
   --font-family: Inter, Arial, sans-serif;

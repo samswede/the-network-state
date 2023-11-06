@@ -1,5 +1,5 @@
 
-  .pseudoCodeBlock {
+  .equationBlock {
     font-family: 'Courier New', Courier, monospace; /* Fixed-width font */
     background-color: #f0f0f0; /* Light grey background */
     border: 1px solid #ccc; /* Light grey border */
@@ -11,10 +11,11 @@
     position: relative; /* Needed for absolute positioning of line numbers */
   }
   
-  .pseudoCodeBlock::before {
-    content: "Algorithm Pseudocode";
+  .equationBlock p {
+    font-family: inherit;
     font-weight: bold;
     display: block;
     margin-bottom: 10px;
+    font-size: fit-content;
   }
   

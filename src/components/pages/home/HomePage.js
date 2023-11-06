@@ -14,11 +14,13 @@ function HomePage() {
       </header>
       
       <main id="home-main">
-        <section id="action-section">
-          <img id="main-concept-image" alt=''>
-          </img>
-          <ActionArea />
-        </section>
+        <div id="responsive">
+          <section id="action-section">
+            <img id="main-concept-image" alt=''>
+            </img>
+            <ActionArea />
+          </section>
+        </div>
         <section id="description">
           <h2>Description</h2>
           <p>Technology has enabled us to start new companies, 

@@ -27,7 +27,7 @@ function ActionArea({}) {
                 text="PDF"
                 linkURL={'https://www.amazon.com/'}
             />
-            <PageButton text="Content" routePath="/content" iconID="read"/>
+            <PageButton text="Quickstart" routePath="/group_1/preamble" iconID="read"/>
 
         </div>
   );

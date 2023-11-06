@@ -1,0 +1,58 @@
+.contentPage__main {
+    padding: 10vh 32px 4px;
+
+}
+
+.contentPage__main h2 {
+    margin-top: 16px;
+    margin-bottom: 5px;
+
+    font-family: var(--font-1);
+
+    font-size: var(--font-size-3);
+    font-style: italic;
+}
+
+.contentPage__main h3 {
+    margin-top: 16px;
+    margin-bottom: 5px;
+
+    font-family: var(--font-1);
+
+    font-size: 24px;
+    font-style: italic;
+}
+
+.contentPage__main p {
+    margin: 0px 0px 22px;
+
+    font-family: var(--font-1);
+
+}
+
+.contentPage__main blockquote {
+    margin: 0px 0px 22px;
+
+    border-left-color: var(--secondary-color);
+    border-left-style: solid;
+    border-left-width: 7px;
+
+    padding-left: 10px;
+
+    font-family: var(--font-1);
+    font-style: italic;
+
+}
+
+.contentPage__main a {
+    color: var(--accent-color);
+    text-decoration: none;
+
+    cursor: pointer;
+
+
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+
+}

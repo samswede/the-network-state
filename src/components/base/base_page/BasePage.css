@@ -1,0 +1,6 @@
+#fixed-nav-bar {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 100;
+}

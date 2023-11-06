@@ -30,22 +30,26 @@ function HomePage() {
             a concept we call the network state.</p>
         </section >
           <ContentBox contentHeader="1. Quickstart">
+          <ContentBoxItem 
+              iconID="arrow-down-right-circle" 
+              text="Preamble"
+              routePath="/group_1/preamble"/>
             <ContentBoxItem 
               iconID="arrow-down-right-circle" 
               text="In one sentence"
-              routePath="/content"/>
+              routePath="/group_1/one_sentence"/>
             <ContentBoxItem 
               iconID="arrow-down-right-circle" 
               text="In one image"
-              routePath="/content"/>
+              routePath="/group_1/one_image"/>
             <ContentBoxItem 
               iconID="arrow-down-right-circle" 
               text="In one thousand words"
-              routePath="/content"/>
+              routePath="/group_1/one_thousand"/>
             <ContentBoxItem 
               iconID="arrow-down-right-circle" 
               text="In one essay"
-              routePath="/content"/>
+              routePath="/group_1/one_essay"/>
           </ContentBox>
         <section id="content-section">
 

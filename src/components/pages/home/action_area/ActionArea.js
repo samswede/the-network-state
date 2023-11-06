@@ -2,7 +2,7 @@ import './ActionArea.css';
 
 import LinkButton from '../../../base/link_button/LinkButton';
 import TextFormSubmit from '../../../base/text_form_submit/TextFormSubmit';
-
+import PageButton from '../../../base/page_button/PageButton';
 
 function ActionArea({}) {
   return (
@@ -27,12 +27,7 @@ function ActionArea({}) {
                 text="PDF"
                 linkURL={'https://www.amazon.com/'}
             />
-            <TextFormSubmit
-                id="subscribe"
-                TextFormSubmit="Subscribe"
-                inputType="email"
-                placeHolder="Email Address"
-            />
+            <PageButton text="Content" routePath="/content" iconID="read"/>
 
         </div>
   );

@@ -1,0 +1,69 @@
+::root {
+    --nextPageeNavBar-height: 80px;
+}
+
+.nextPageNavBar {
+    /* hv is a unit of measurement that is equal to 1% of the viewport height. */
+    /*
+    height: var(--nextPageNavBar-height);
+    */
+    width: fill-aviailable;
+
+    display: grid;
+    grid-template-columns: auto auto;
+
+
+    border-top: 2px solid var(--border-color);
+    
+}
+
+
+.nextPageNavBar__Title {
+    background-color: white;
+    border-bottom: inherit;
+
+    justify-content: left;
+    align-items: left;
+
+
+}
+
+.nextPageNavBar__textBox {
+
+    display: flexbox;
+    flex-direction: row;
+
+    text-align: right;
+    color: #000;
+    text-decoration: none;
+    font-family: var(--font-1);
+
+    margin: 5px;
+}
+
+.nextPageNavBar__textBox h3 {
+
+    margin: inherit;
+}
+
+.nextPageNavBar__textBox p {
+
+    margin: inherit;
+    text-emphasis: none;
+}
+
+.nextPageNavBar__buttonBox {
+    justify-content: right;
+    align-items: right;
+
+    height: 40px;
+    width: 64px;
+
+    background-color: var(--background-color);
+    border-bottom: inherit;
+}
+
+#chevron-left-icon {
+    background-image: url("../../../../assets/icons/chevron-left.svg");
+    background-size: cover;
+}

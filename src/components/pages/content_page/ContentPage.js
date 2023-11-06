@@ -2,7 +2,7 @@ import './ContentPage.css';
 import NavBar from '../../layout/nav/NavBar';
 import PageTitle from './PageTitle.js';
 import PageSubtitle from './PageSubtitle.js';
-
+import NextPageNavBar from '../../layout/footer/next_page_nav_bar/NextPageNavBar';
 
 function ContentPage() {
   return (
@@ -30,10 +30,8 @@ function ContentPage() {
         
         </section >
 
-        <section id="content-section">
-
-
-        </section>
+        <NextPageNavBar nextPageTitle="Home" pageButtonText="Back" routePath="/"/>
+        
       </main>
 
 

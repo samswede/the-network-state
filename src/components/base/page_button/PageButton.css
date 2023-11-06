@@ -1,0 +1,140 @@
+/* CSS variables for buttons */
+:root {
+    --button-height: 44px;
+
+    --button-border-style: solid;
+    --button-border-width: 1px;
+
+    --button-margin: 4px;
+    --button-padding-vertical: 10px;
+    --button-padding-horizontal: 18px;
+
+    --button-border-color: rgb(209, 213, 219); /* rgb(209, 213, 219)*/
+    --button-border-color-hover: rgb(0, 0, 0);
+
+    --button-background-color: rgb(255, 255, 255);
+    --button-background-color-hover: var(--button-border-color-hover);
+
+    --button-text-color: rgb(30, 30, 30);
+    --button-text-color-hover: rgb(255, 255, 255);
+
+    --button-font-size: 14px;
+    --button-font-weight: 600;
+
+
+
+}
+
+
+.pageButton {
+
+    align-items: center;
+
+    border-color: var(--button-border-color);
+    border-radius: 9999px;
+
+    border-style: var(--button-border-style);
+
+    border-width: var(--button-border-width);
+
+    border-image-outset: 0;
+
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+
+    border-image-width: 1;
+
+
+    box-sizing: border-box;
+
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+
+    display: flex;
+
+    flex-grow: 1;
+    font-family: Inter, Arial, sans-serif;
+    font-size: var(--button-font-size);
+    font-weight: var(--button-font-weight);
+
+    height: var(--button-height);
+
+    justify-content: center;
+
+    line-height: normal;
+
+    margin: var(--button-margin);
+    min-width: fit-content;
+
+    padding-bottom: var(--button-padding-vertical);
+    padding-left: var(--button-padding-horizontal);
+    padding-right: var(--button-padding-horizontal);
+    padding-top: var(--button-padding-vertical);
+    pointer-events: auto;
+
+    tab-size: 4;
+    text-decoration-color: rgb(0, 0, 0);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+
+    -webkit-font-smoothing: antialiased;
+  }
+
+.pageButtonIcon {
+
+
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+
+    border-image-width: 1;
+
+
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+
+    display: block;
+
+
+    height: 16px;
+
+    line-height: normal;
+
+    margin-right: 12px;
+    max-width: 100%;
+
+    overflow-clip-margin: content-box;
+    overflow-x: clip;
+    overflow-y: clip;
+
+    pointer-events: auto;
+
+    tab-size: 4;
+    text-decoration-thickness: auto;
+    text-size-adjust: 100%;
+
+    vertical-align: middle;
+
+    width: 16px;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+.pageButton:hover {
+  /* I want to change the background color of the button when the mouse is over it */
+  background-color: var(--button-border-color-hover);
+  color: var(--button-text-color-hover);
+
+  transition: 
+        background-color 0.1s ease-in-out 0s
+}
+
+.pageButton:hover .pageButtonIcon {
+  filter: invert(100%);
+
+  transition: 
+    filter 0.1s ease-in-out 0s
+}
+

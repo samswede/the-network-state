@@ -1,13 +1,14 @@
 import './ContentBoxItem.css';
-import IconButton from '../../../base/icon_button/IconButton';
+import IconPageButton from '../../../base/icon_button/IconPageButton.js';
 
-function ContentBoxItem({iconID, contentItemHeader}) {
+
+function ContentBoxItem({iconID, text, routePath}) {
     return (
       <div className="contentBox__item">
         <div className="contentBox__itemButton">
-          <IconButton iconID={iconID}/>
+          <IconPageButton iconID={iconID} routePath={routePath}/>
         </div>
-        <h3>{contentItemHeader}</h3>
+        <h3>{text}</h3>
       </div>
     );
   }

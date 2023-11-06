@@ -30,16 +30,20 @@ function HomePage() {
           <ContentBox contentHeader="1. Quickstart">
             <ContentBoxItem 
               iconID="arrow-down-right-circle" 
-              contentItemHeader="In one sentence"/>
+              text="In one sentence"
+              routePath="/content"/>
             <ContentBoxItem 
               iconID="arrow-down-right-circle" 
-              contentItemHeader="In one image"/>
+              text="In one image"
+              routePath="/content"/>
             <ContentBoxItem 
               iconID="arrow-down-right-circle" 
-              contentItemHeader="In one thousand words"/>
+              text="In one thousand words"
+              routePath="/content"/>
             <ContentBoxItem 
               iconID="arrow-down-right-circle" 
-              contentItemHeader="In one essay"/>
+              text="In one essay"
+              routePath="/content"/>
           </ContentBox>
         <section id="content-section">
 

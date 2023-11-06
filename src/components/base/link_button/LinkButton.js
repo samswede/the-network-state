@@ -17,13 +17,13 @@ function LinkButton({ iconID, text, linkURL }) {
   return (
     <div id={"button-" + iconID} onClick={navigateToUrl} className="linkButton">
       <div id={iconID + "-icon"} className="linkButtonIcon"></div>
-      <p id="linkButtonText">{text}</p>
+      <p className="linkButtonText">{text}</p>
     </div>
   );
 }
 
 LinkButton.propTypes = {
-  id: PropTypes.string.isRequired,
+  iconID: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
   linkURL: PropTypes.string.isRequired,
 };

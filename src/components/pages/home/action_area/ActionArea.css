@@ -7,7 +7,7 @@
     grid-template-areas: 
         "podcast podcast podcast"
         "buy read download"
-        "subscribe subscribe subscribe";
+        "content-page content-page content-page";
     
     grid-gap: 10px;
 }
@@ -52,7 +52,7 @@
   }
 
 
-#subscribe {
-    grid-area: subscribe;
+#pageButton-Content-read {
+    grid-area: content-page;
   }
 

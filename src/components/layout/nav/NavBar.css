@@ -1,5 +1,5 @@
 ::root {
-    --navBar-height: 10vh;
+    --navBar-height: 6vh;
 }
 
 .navBar {
@@ -9,7 +9,7 @@
 
     display: grid;
     grid-template-columns: 1fr 7fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 0.5fr;
 
     border-bottom: 2px solid var(--border-color);
     

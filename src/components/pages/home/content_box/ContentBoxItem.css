@@ -1,6 +1,8 @@
 
 .contentBox__item {
+    
     background-color: var(--background-color);
+
     display: flex;
     flex-direction: row;
 
@@ -22,11 +24,16 @@
 }
 
 .contentBox__item:hover {
+    /*
     background-color: var(--background-color-hover);
+    */
+    background: linear-gradient(145deg, #dcdcdc, #ffffff); /* Simulate metallic gradient */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
 }
 
 .contentBox__item h3 {
     text-transform: capitalize;
+    color: #333
   }
   
 
@@ -45,9 +52,20 @@
 
     position: relative;
     top: -10px;
-
     justify-content: center;
-
     margin: 0.5rem;
 
 }
+
+.contentBox__itemButton:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; /* Adjust size to fit your design */
+    height: 80%; /* Adjust size to fit your design */
+    background: linear-gradient(145deg, #e6e6e6, #ffffff); /* Simulate metallic button gradient */
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for button depth */
+  }

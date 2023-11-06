@@ -29,6 +29,7 @@ function HomePage() {
             This book explains how to build the successor to the nation state, 
             a concept we call the network state.</p>
         </section >
+        <section id="content-section-1">
           <ContentBox contentHeader="1. Quickstart">
           <ContentBoxItem 
               iconID="arrow-down-right-circle" 
@@ -51,7 +52,57 @@ function HomePage() {
               text="In one essay"
               routePath="/group_1/one_essay"/>
           </ContentBox>
-        <section id="content-section">
+        </section>
+
+        <section id="content-section-2">
+          <ContentBox contentHeader="2. History as Trajectory">
+            <ContentBoxItem 
+                iconID="arrow-down-right-circle" 
+                text="Prologue"
+                routePath="/group_1/preamble"/>
+              <ContentBoxItem 
+                iconID="arrow-down-right-circle" 
+                text="Microhistory and Macrohistory"
+                routePath="/group_1/one_sentence"/>
+              <ContentBoxItem 
+                iconID="arrow-down-right-circle" 
+                text="Political Power and Technological Truth"
+                routePath="/group_1/one_image"/>
+              <ContentBoxItem 
+                iconID="arrow-down-right-circle" 
+                text="In one thousand words"
+                routePath="/group_1/one_thousand"/>
+              <ContentBoxItem 
+                iconID="arrow-down-right-circle" 
+                text="In one essay"
+                routePath="/group_1/one_essay"/>
+            </ContentBox>
+
+        </section>
+
+        <section id="content-section-3">
+          <ContentBox contentHeader="3. The Tripolar Moment">
+            <ContentBoxItem 
+                iconID="arrow-down-right-circle" 
+                text="Preamble"
+                routePath="/group_1/preamble"/>
+              <ContentBoxItem 
+                iconID="arrow-down-right-circle" 
+                text="In one sentence"
+                routePath="/group_1/one_sentence"/>
+              <ContentBoxItem 
+                iconID="arrow-down-right-circle" 
+                text="In one image"
+                routePath="/group_1/one_image"/>
+              <ContentBoxItem 
+                iconID="arrow-down-right-circle" 
+                text="In one thousand words"
+                routePath="/group_1/one_thousand"/>
+              <ContentBoxItem 
+                iconID="arrow-down-right-circle" 
+                text="In one essay"
+                routePath="/group_1/one_essay"/>
+            </ContentBox>
 
         </section>
       </main>

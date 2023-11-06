@@ -1,6 +1,13 @@
 :root {
   --primary-color: rgb(209, 213, 219); /* rgb(209, 213, 219)*/
   --secondary-color: #2d3748;
+  --tertiary-color: #4a5568;
+
+  --primary-complementary-color: #718096;
+  --secondary-complementary-color: #e2e8f0;
+  --tertiary-complementary-color: #a0aec0;
+
+  --background-color: white;
   
   --accent-color: #e53e3e;
   --accent-color-hover: #c53030;
@@ -16,7 +23,7 @@
 
   --font-family: Inter, Arial, sans-serif;
   --font-1: Valkyrie B;
-  --font-2: Inter, Arial, sans-serif;
+  --font-2: "Suisse Works";
   --font-3: Valkyrie D;
 
   --background-color: rgb(255, 255, 255);

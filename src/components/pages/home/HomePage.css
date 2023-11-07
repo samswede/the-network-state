@@ -1,4 +1,8 @@
 
+body {
+  background-color: var(--background-color);
+}
+
 #home-nav-bar {
     display: flex;
     flex-direction: row;
@@ -42,7 +46,7 @@ grid-template-rows: 1.6fr 1fr;
 
 /*  Margin to make space for NavBar
 */
-background-image: url("../../../assets/images/jacob.png");
+background-image: url("../../../assets/images/josh_self_love.jpg");
 background-size: cover;
 background-position: center;
 

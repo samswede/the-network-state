@@ -11,6 +11,7 @@ import SideBarItemSmall from '../../layout/side_bar/SideBarItemSmall';
 import { useState } from 'react';
 import MenuContext from './menu_context/MenuContext';
 
+
 function HomePage() {
   const [menuIsVisible, setMenuIsVisible] = useState(false);
 
@@ -29,7 +30,7 @@ function HomePage() {
                 <SideBarItemSmall iconID="arrow-down-right-circle" text="In one image" routePath="/group_1/one_image"/>
                 <SideBarItemSmall iconID="arrow-down-right-circle" text="In one thousand words" routePath="/group_1/one_thousand"/>
                 <SideBarItemSmall iconID="arrow-down-right-circle" text="In one essay" routePath="/group_1/one_essay"/>
-                  
+
             </SideBar>
           </MenuContext.Provider>
 

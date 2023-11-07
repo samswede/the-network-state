@@ -5,14 +5,34 @@ import ActionArea from './action_area/ActionArea';
 import ContentBox from './content_box/ContentBox';
 import ContentBoxItem from './content_box/ContentBoxItem';
 
+import SideBar from '../../layout/side_bar/SideBar.js';
+import SideBarItemSmall from '../../layout/side_bar/SideBarItemSmall';
+
+import { useState } from 'react';
+import MenuContext from './menu_context/MenuContext';
 
 function HomePage() {
+  const [menuIsVisible, setMenuIsVisible] = useState(false);
+
   return (
     <>
       <header id="home-nav-bar">
-        <NavBar websiteTitle={'The Network State'}/>
+          <MenuContext.Provider value={[menuIsVisible, setMenuIsVisible]}>
+            <NavBar websiteTitle={'The Network State'}/>
+          </MenuContext.Provider>
       </header>
       
+          <MenuContext.Provider value={[menuIsVisible, setMenuIsVisible]}>
+            <SideBar>
+                <SideBarItemSmall iconID="arrow-down-right-circle" text="Preamble" routePath="/group_1/preamble"/>
+                <SideBarItemSmall iconID="arrow-down-right-circle" text="In one sentence" routePath="/group_1/one_sentence"/>
+                <SideBarItemSmall iconID="arrow-down-right-circle" text="In one image" routePath="/group_1/one_image"/>
+                <SideBarItemSmall iconID="arrow-down-right-circle" text="In one thousand words" routePath="/group_1/one_thousand"/>
+                <SideBarItemSmall iconID="arrow-down-right-circle" text="In one essay" routePath="/group_1/one_essay"/>
+                  
+            </SideBar>
+          </MenuContext.Provider>
+
       <main id="home-main">
         <div id="responsive">
           <section id="action-section">

@@ -12,18 +12,29 @@
   --accent-color-pressed: #9b2c2c;
   --accent-color-focus: #c53030;
 
-  --text-color: #fff;
-  --text-color-hover: #fff;
-  --text-color-pressed: #fff;
+  --text-color-1: black;
+  --text-color-1-anti: white;
+  --text-color-1-hover: #fff;
 
-  --font-color-1: black;
-  --font-color-2: white;
+  --text-color-2: #2d3748;
+  --text-color-2-anti: #fff;
+  --text-color-2-hover: #fff;
+
+  --text-color-3: #4a5568;
+  --text-color-3-anti: #fff;
+  --text-color-3-hover: #fff;
+
+  --text-color-4: #718096;
+  --text-color-4-anti: #fff;
+  --text-color-4-hover: #fff;
+
 
   --font-size-1: 48px;
   --font-size-2: 32px;
   --font-size-3: 24px;
   --font-size-4: 20px;
   --font-size-5: 16px;
+  --font-size-6: 14px;
 
 
   --font-weight: 600;
@@ -35,7 +46,6 @@
 
   --background-color: white; 
   --background-color-hover: rgb(209, 213, 219);
-  --background-color-pressed: #fff;
 
   --border-color: rgb(209, 213, 219);
   --border-color-hover: #718096;

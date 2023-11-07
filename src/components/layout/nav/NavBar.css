@@ -8,7 +8,7 @@
     width: 100vw;
 
     display: grid;
-    grid-template-columns: 1fr 7fr 1fr;
+    grid-template-columns: 10vh 7fr 10vh;
     grid-template-rows: auto;
 
     border-bottom: 2px solid var(--border-color);
